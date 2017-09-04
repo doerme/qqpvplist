@@ -31,6 +31,156 @@ body {
         }
     }
 }
+.gbuy-wrap{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    &-mask{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        background: rgba(0, 0, 0, 0.6);
+    }
+    &-main{
+        position: absolute;
+        width: rem(611);
+        height: rem(720);
+        background: #2a2d42 url('../img/page/window-bg.png') no-repeat center top;
+        background-size: 100% auto;
+        top: 10%;
+        left: 50%;
+        margin-left: rem(-306);
+    }
+    .gbuy-wrap-main-title{
+        position: absolute;
+        font-size: rem(36);
+        color: #f3d266;
+        text-align: center;
+        width: 100%;
+        top: rem(30);
+        left: 0;
+        width: 100%;
+    }
+    .gbuy-wrap-main-cover{
+        position: absolute;
+        width: rem(136);
+        top: rem(170);
+        left: 50%;
+        margin-left: rem(-68);
+    }
+    .gbuy-num{
+        position: absolute;
+        width: rem(56);
+        height: rem(56);
+        top: rem(373);
+        &.plus{
+            left: rem(180);
+        }
+        &.reduce{
+            right: rem(180);
+        }
+        &.show{
+            width: rem(144);
+            height: rem(54);
+            text-align: center;
+            line-height: rem(54);
+            font-size: rem(30);
+            color: #313131;
+            left: 50%;
+            margin-left: rem(-72);
+        }
+    }
+    .gbuy-close{
+        position: absolute;
+        width: rem(100);
+        height: rem(100);
+        right: 0;
+        top: 0;
+    }
+    .gbuy-total{
+        position: absolute;
+        width: 100%;
+        font-size: rem(44);
+        color: #edca62;
+        font-weight: bold;
+        top: rem(475);
+        left: 0;
+        text-align: center;
+    }
+    .gbuy-buy{
+        position: absolute;
+        width: rem(410);
+        height: rem(76);
+        top: rem(576);
+        left: 50%;
+        margin-left: rem(-205);
+        background: #2a2d42 url('../img/base64/sure-buy.png') no-repeat center top;
+        background-size: 100% auto;
+    }
+}
+.page-buy-wrap{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: rem(1498);
+    background: #2a2d42 url('../img/page/buy-bg.jpg') no-repeat center top;
+    background-size: 100% auto;
+    .page-buy-foot{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        height: rem(60);
+        line-height: rem(60);
+        background: #191949;
+        color: #656597;
+        font-size: rem(24);
+    }
+    .buy-main-list{
+        position: absolute;
+        width: rem(704);
+        top: rem(590);
+        left: 50%;
+        margin-left: rem(-352);
+        li{
+            position: relative;
+            width: rem(704);
+            height: rem(144);
+            line-height: rem(144);
+            background: #2a2d42 url('../img/page/list-unit-bg.jpg') no-repeat center top;
+            background-size: 100% auto;
+            margin-top: rem(20);
+            .bl-cover{
+                position: absolute;
+                width: rem(120);
+                top: rem(16);
+                left: rem(12);
+            }
+            .bl-name{
+                position: absolute;
+                font-size: rem(30);
+                color: #f3d266;
+                left: rem(168);
+                top: rem(0);
+            }
+            .bl-bt{
+                position: absolute;
+                width: rem(180);
+                height: rem(76);
+                right: rem(22);
+                top: rem(30);
+                background: #2a2d42 url('../img/base64/buy-bt.png') no-repeat center top;
+                background-size: 100% auto;
+            }
+        }
+    }
+}
 
 .page-list-wrap{
     position: absolute;
