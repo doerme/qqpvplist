@@ -31,6 +31,45 @@ body {
         }
     }
 }
+.page-tips-wrap{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    .tips-icon{
+        position: absolute;
+        width: rem(220);
+        top: rem(280);
+        left: 50%;
+        margin-left: rem(-110);
+    }
+    .tips-note{
+        position: absolute;
+        top: rem(580);
+        left: 0;
+        width: 100%;
+        font-size: rem(32);
+        color: #333;
+        text-align: center;
+        font-weight: bold;
+    }
+    .tips-bt{
+        position: absolute;
+        width: rem(420);
+        height: rem(96);
+        text-align: center;
+        line-height: rem(96);
+        background: url('../img/base64/tips-bt.png') no-repeat center top;
+        background-size: 100% auto;
+        top: rem(660);
+        left: 50%;
+        margin-left: rem(-210);
+        font-size: rem(36);
+        color: #fdfdfd;
+        font-weight: bold;
+    }
+}
 .gbuy-wrap{
     position: fixed;
     width: 100%;
